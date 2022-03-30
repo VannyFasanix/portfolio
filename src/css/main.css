@@ -40,7 +40,7 @@
   Global Styles
   ===============
   */
-  
+
   *,
   ::after,
   ::before {
@@ -223,7 +223,7 @@
     font-size: 2rem;
     background: transparent;
     border-color: transparent;
-    color: #ad09ee;
+    color: #c85ff1;
     cursor: pointer;
     transition: var(--transition);
   }
@@ -246,7 +246,7 @@
     }
     .nav-links a {
       text-transform: capitalize;
-      color: #8506b8;
+      color: #c85ff1;
       font-weight: bold;
       letter-spacing: var(--spacing);
       transition: var(--transition);
@@ -1028,35 +1028,4 @@
     margin: 3rem 0;
   }
 
-  .title-animehouse {
-    color: #cc14a4;
-    text-shadow: 0 1px 0 #cc14a4,
-                  0 2px 0 #cc14a4,
-                  0 3px 0 #cc14a4,
-                  0 4px 0 #cc14a4,
-                  0 5px 0 #cc14a4,
-                  0 6px 1px #cc14a4,
-                  0 0 5px #cc14a4,
-                  0 1px 3px #cc14a4,
-                  0 3px 5px #cc14a4,
-                  0 5px 10px #cc14a4,
-                  0 10px 10px #cc14a4,
-                  0 20px 20px #cc14a4;
-  }
-  
-  .title-animehouse-black {
-    color: #ad09ee;
-    text-shadow: 0 1px 0 #ad09ee,
-                  0 2px 0 #ad09ee,
-                  0 3px 0 #ad09ee,
-                  0 4px 0 #ad09ee,
-                  0 5px 0 #ad09ee,
-                  0 6px 1px #ad09ee,
-                  0 0 5px #ad09ee,
-                  0 1px 3px #ad09ee,
-                  0 3px 5px #ad09ee,
-                  0 5px 10px #ad09ee,
-                  0 10px 10px #ad09ee,
-                  0 20px 20px #ad09ee;
-  }
   

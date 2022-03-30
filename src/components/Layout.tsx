@@ -6,7 +6,6 @@ const Layout = ({children}:any) => {
       <>
         <Navbar />
         {children}
-        //test commit
       </>
   )
 }
