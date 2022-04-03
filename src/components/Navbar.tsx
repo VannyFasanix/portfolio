@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
+import { graphql, Link, StaticQueryDocument, useStaticQuery } from "gatsby";
 import logo from "../images/logo.png";
 import { FaAlignRight } from "react-icons/fa";
 import PageLinks from "../constants/links";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <div className="title">
-            <img src={logo} alt="logo" style={{height: 200, width: 300, paddingTop: 20}}/>
+            <StaticImage src="../images/hero-img-project.png" className="logo-navbar" layout="fixed" placeholder="tracedSVG" alt="logo" style={{height: 90, width: 90, paddingTop: 20}}/>
           </div>
           <button type="button" className="toggle-btn">
             <FaAlignRight></FaAlignRight>

@@ -4,12 +4,14 @@ import { Link, StaticQueryDocument } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import Icons from "../constants/icons";
 import { Button } from "@mantine/core";
+import  heroimg  from "../images/hero-img-project.png"
+import Arrow from "./Arrow";
 
 export const query: StaticQueryDocument = graphql`
   {
-    file(relativePath: { eq: "hero-img.png" }) {
+    file(relativePath: { eq: "hero-img-project.png" }) {
       childImageSharp {
-        gatsbyImageData(placeholder: TRACED_SVG)
+        gatsbyImageData(placeholder: TRACED_SVG, sizes: "quality: 90, maxWidth: 1000, webpQuality: 100")
       }
     }
   }
@@ -39,6 +41,7 @@ const Hero = () => {
           <div className="underline-reverse"></div>
         </article>
         <GatsbyImage image={gatsbyImageData} className="hero-img" alt="hero" />
+        <Arrow/>
       </div>
     </header>
   );
