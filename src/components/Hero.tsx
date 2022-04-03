@@ -31,11 +31,12 @@ const Hero = () => {
           <h4>Want to get in touch?</h4>
           <Button
             color="grape"
-            style={{ fontFamily: "Open Sans, sans-serif", fontWeight: 700 }}
+            style={{ fontFamily: "Open Sans, sans-serif", fontWeight: 700, zIndex: 1 }}
           >
             CONTACT ME
           </Button>
           <Icons />
+          <div className="underline-reverse"></div>
         </article>
         <GatsbyImage image={gatsbyImageData} className="hero-img" alt="hero" />
       </div>

@@ -1,2 +1,2 @@
-import "./src/css/main.css"
-import "./src/css/background.sass"
+
+import "./src/css/main.sass"

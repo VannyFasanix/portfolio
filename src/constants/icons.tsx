@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     icon: (
-      <ActionIcon size="lg" color="grape">
+      <ActionIcon size="lg" color="grape" style={{zIndex: 1}}>
         <BrandGithub />
       </ActionIcon>
     ),
@@ -16,7 +16,7 @@ const data = [
   {
     id: 2,
     icon: (
-      <ActionIcon size="lg" color="grape">
+      <ActionIcon size="lg" color="grape" style={{zIndex: 1}}>
         <BrandLinkedin/>
       </ActionIcon>
     ),
@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     icon: (
-      <ActionIcon size="lg" color="grape">
+      <ActionIcon size="lg" color="grape" style={{zIndex: 1}}>
         <BrandInstagram/>
       </ActionIcon>
     ),
