@@ -27,19 +27,19 @@ const config: GatsbyConfig = {
       "name": "images",
       "path": "./src/images/"
     },
-    // __key: "images"
+    __key: "images"
   }, {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
       "path": "./src/pages/"
     },
-    // __key: "pages"
+    __key: "pages"
   },
   {
     resolve: `gatsby-source-strapi`,
     options: strapiConfig,
-  }]
+  }, 'gatsby-plugin-mantine']
 };
 
 export default config;

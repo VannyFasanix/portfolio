@@ -5,13 +5,13 @@
     --clr-primary-2: hsl(185, 84%, 25%);
     --clr-primary-3: hsl(185, 81%, 29%);
     --clr-primary-4: hsl(184, 77%, 34%);
-    --clr-primary-5: #2caeba;
+    --clr-primary-5: #ba2cb3;
     /* lighter shades of primary color */
     --clr-primary-6: hsl(185, 57%, 50%);
     --clr-primary-7: hsl(184, 65%, 59%);
     --clr-primary-8: hsl(184, 80%, 74%);
     --clr-primary-9: hsl(185, 94%, 87%);
-    --clr-primary-10: hsl(186, 100%, 94%);
+    --clr-primary-10: rgb(242, 226, 250);
     /* darkest grey - used for headings */
     --clr-grey-1: hsl(209, 61%, 16%);
     --clr-grey-3: hsl(209, 34%, 30%);
@@ -176,10 +176,12 @@
   
   /* social links */
   .social-links {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-left: -2.2rem;
     width: 15rem;
     display: flex;
-    justify-content: space-between;
+    padding: 1;
+    justify-content: space-evenly;
   }
   .social-link {
     font-size: 1.75rem;
@@ -396,7 +398,7 @@
   .hero {
     margin-top: -5rem;
     padding-top: 5rem;
-    height: 100vh;
+    height: 108vh;
     background: var(--clr-primary-10);
     position: relative;
   }
@@ -451,7 +453,7 @@
     .hero-img {
       display: block;
       grid-row: 1/1;
-      grid-column: 6/-1;
+      grid-column: 7/-1;
     }
   }
   @media screen and (min-width: 1170px) {
@@ -1027,5 +1029,10 @@
     height: 15rem;
     margin: 3rem 0;
   }
+
+  .text-box {
+    width: 20rem;
+  }
+
 
   
