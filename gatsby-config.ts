@@ -4,13 +4,6 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const strapiConfig = {
-  apiURL: process.env.STRAPI_API_URL,
-  accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ["article", "company", "author"],
-  singleTypes: [],
-};
-
 const config: GatsbyConfig = {
   siteMetadata: {
     title: ``,
@@ -47,11 +40,7 @@ const config: GatsbyConfig = {
       },
       __key: "pages",
     },
-    {
-      resolve: `gatsby-source-strapi`,
-      options: strapiConfig,
-    },
-    "gatsby-plugin-mantine",
+    "gatsby-plugin-mantine"
   ],
 };
 
