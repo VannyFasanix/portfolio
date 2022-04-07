@@ -1,7 +1,14 @@
-const fastify = require("fastify")();
+const fastify = require("fastify")({logger: true});
 const gatsby = require("gatsby-plugin-nodejs");
 
 gatsby.prepare({ app: fastify, framework: "fastify" }, () => {});
+
+async function dbConnector (fastify: any, options: any) {
+  fastify.register(require('fastify-mongodb'), {
+    url: 'mongodb+srv://vannyfasanix:VX1bOzENWjp9QOb0@vannyscluster.l04mt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+  }).then(()=> console.log("Mongo pronto"))
+}
+
 
 const port = process.env.PORT || 8000;
 

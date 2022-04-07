@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "nodemon server/fastify-server.ts",
+    "start": "nodemon src/server/fastify-server.ts",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
