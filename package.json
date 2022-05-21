@@ -4,12 +4,13 @@
   "private": true,
   "description": "portfolio-vanny",
   "author": "vfasanelli",
+  "type": "module",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "nodemon src/server/fastify-server.ts",
+    "start": "nodemon src/server/server.js",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
