@@ -16,6 +16,7 @@ const config = {
         trackingId: "portfolio-vanny-1",
       },
     },
+    `gatsby-plugin-nodejs`,
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     { resolve: "gatsby-remark-images", options: { quality: 90 } },
