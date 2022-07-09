@@ -1,10 +1,9 @@
-import type { GatsbyConfig } from "gatsby";
 
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const config: GatsbyConfig = {
+const config = {
   siteMetadata: {
     title: ``,
     siteUrl: `https://www.yourdomain.tld`,
@@ -44,4 +43,4 @@ const config: GatsbyConfig = {
   ],
 };
 
-export default config;
+module.exports = config;

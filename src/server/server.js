@@ -1,10 +1,8 @@
+const dbConnector = require('./db-connector.js')
+const firstRoute = require('./ff-routes.js')
+const gatsby = require('gatsby-plugin-nodejs')
 
-import Fastify from 'fastify'
-import dbConnector from './db-connector.js'
-import firstRoute from './ff-routes.js'
-import  gatsby from 'gatsby-plugin-nodejs'
-
-const fastify = Fastify({
+const fastify = require('fastify')({
     logger: true
   })
 

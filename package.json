@@ -4,7 +4,6 @@
   "private": true,
   "description": "portfolio-vanny",
   "author": "vfasanelli",
-  "type": "module",
   "keywords": [
     "gatsby"
   ],
