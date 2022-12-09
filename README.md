@@ -1,8 +1,1 @@
-<p align="left">
-  <h1>
-    Welcome to my portfolio!
-  </h1>
-</p>
-
-
-Enjoy your stay here folks.
+This project has been abandoned because of gatsbyjs issues.
